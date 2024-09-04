@@ -1,0 +1,26 @@
+[
+    {
+        "id": "post3",
+        "image": "featured-image3.jpg",
+        "title": "Project 1: Building a REST API",
+        "date": "2024-09-03",
+        "tags": "API, Backend",
+        "excerpt": "In this project, I build a RESTful API using Node.js and Express..."
+    },
+    {
+        "id": "post2",
+        "image": "featured-image2.jpg",
+        "title": "Project 2: Frontend with React",
+        "date": "2024-08-28",
+        "tags": "React, JavaScript",
+        "excerpt": "In this project, I create a dynamic frontend using React..."
+    },
+    {
+        "id": "post1",
+        "image": "featured-image1.jpg",
+        "title": "Project 3: DevOps with Docker",
+        "date": "2024-08-20",
+        "tags": "DevOps, Docker",
+        "excerpt": "This project covers setting up a CI/CD pipeline with Docker..."
+    }
+]
