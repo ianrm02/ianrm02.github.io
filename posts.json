@@ -1,26 +1,29 @@
 [
     {
         "id": "post3",
-        "image": "featured-image3.jpg",
-        "title": "Project 1: Building a REST API",
+        "title": "Project: Baylor Call Scheduler",
         "date": "2024-09-03",
-        "tags": "API, Backend",
-        "excerpt": "In this project, I build a RESTful API using Node.js and Express..."
+        "tags": ["Java", "Backend"],
+        "image": "data/images/image3.jpg",
+        "description": "In this project...",
+        "content": "Detailed content about the Baylor Call Scheduler project..."
     },
     {
         "id": "post2",
-        "image": "featured-image2.jpg",
-        "title": "Project 2: Frontend with React",
+        "title": "Project: Data Science Stock Market",
         "date": "2024-08-28",
-        "tags": "React, JavaScript",
-        "excerpt": "In this project, I create a dynamic frontend using React..."
+        "tags": ["Python", "Pandas"],
+        "image": "data/images/image2.jpg",
+        "description": "In this project...",
+        "content": "Detailed content about the Data Science Stock Market project..."
     },
     {
         "id": "post1",
-        "image": "featured-image1.jpg",
-        "title": "Project 3: DevOps with Docker",
+        "title": "Project: Salesforce",
         "date": "2024-08-20",
-        "tags": "DevOps, Docker",
-        "excerpt": "This project covers setting up a CI/CD pipeline with Docker..."
+        "tags": ["Python", "Flask", "SQL"],
+        "image": "data/images/image1.jpg",
+        "description": "This project covers...",
+        "content": "Detailed content about the Salesforce project..."
     }
 ]
