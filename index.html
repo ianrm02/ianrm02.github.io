@@ -3,14 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Website</title>
+    <title>Ian Marchbank</title> <!--TODO Change this title -->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Hello, World!</h1>
-    <p>This is my website. It isn't much yet...</p>
-    <button onclick="displayDate()">What is the date today?</button>
-    <p id="date"></p>
-    <script src="script.js"></script>
+    <header class="site-header">
+        <div class="container">
+            <h1>My Developer Blog</h1> <!--TODO Change this title -->
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <input type="text" id="search" placeholder="Search blog posts...">
+        </div>
+    </header>
+
+    <main class="container">
+
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2024 My Developer Blog. All rights reserved.</p> <!--TODO Change this title -->
+    </footer>
+
+    <script src="scripts.js"></script>
 </body>
 </html>
