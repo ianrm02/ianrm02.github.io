@@ -1,29 +1,5 @@
 [
-    {
-        "id": "post3",
-        "title": "Project: Baylor Call Scheduler",
-        "date": "2024-09-03",
-        "tags": ["Java", "Backend"],
-        "image": "data/images/image3.jpg",
-        "description": "In this project...",
-        "content": "Detailed content about the Baylor Call Scheduler project..."
-    },
-    {
-        "id": "post2",
-        "title": "Project: Data Science Stock Market",
-        "date": "2024-08-28",
-        "tags": ["Python", "Pandas"],
-        "image": "data/images/image2.jpg",
-        "description": "In this project...",
-        "content": "Detailed content about the Data Science Stock Market project..."
-    },
-    {
-        "id": "post1",
-        "title": "Project: Salesforce",
-        "date": "2024-08-20",
-        "tags": ["Python", "Flask", "SQL"],
-        "image": "data/images/image1.jpg",
-        "description": "This project covers...",
-        "content": "Detailed content about the Salesforce project..."
-    }
+    "post-1.html",
+    "post-2.html",
+    "post-3.html"
 ]
