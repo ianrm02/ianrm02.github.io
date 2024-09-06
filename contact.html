@@ -1,12 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html lang="en-us">
+
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Me</title>
     <link rel="stylesheet" href="styles.css">
+
 </head>
+
 <body>
+
     <header class="site-header">
         <div class="container">
             <h1>Contact Me</h1>
@@ -24,24 +30,31 @@
         <section class="contact-section">
             <h2>Get in Touch</h2>
             <p>If you have any questions or would like to discuss a project, feel free to reach out using the form below.</p>
-            
-            <form action="submit_form.php" method="POST" class="contact-form">
+
+            <form action="https://formspree.io/f/xzzpwano" method="POST" class="contact-form">
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required>
-
+              
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required>
-
+              
                 <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="5" required></textarea>
-
-                <button type="submit">Send Message</button>
+                <textarea id="message" name="message" required></textarea>
+              
+                <button type="submit">Send</button>
             </form>
+              
+            <div id="form-message" style="display: none;">
+                Your message has been sent successfully!
+            </div>
+
         </section>
     </main>
 
     <footer class="site-footer">
-        <p>&copy; 2024 Marchbank.Dev Blog. All rights reserved.</p>
+        <p>&copy; 2024 Marchbank.dev Blog. All rights reserved.</p>
     </footer>
+
 </body>
+
 </html>
